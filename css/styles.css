@@ -2,41 +2,33 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    min-width: 320px;
+    max-width: 350px;
+    display: block;
+    margin: 20px auto;
+    
 }
 
-header{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 324px;
-    height: 130px;
-    text-align: center;
+
+img {
+   display: block;
+   margin: 80px auto;
+   width: 55%;
 }
 
-header img {
-    width: 183px;
-    height: 121%;
-    align-self: center;
-}
-main {
-    width: 100%;
-    min-width: 320;
-    height: auto;
-    background-color: var(--off-white);
-}
 
 .form-inicio{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 40px;
+    font-size: 1.8rem ;
 
 }
 
@@ -49,51 +41,12 @@ main {
     margin-left: -21px;
 }
 
-.a-MR{
-margin: 20px;}
-
-.button {
-    display: inline-block;
-    border-radius: 33px;
-    background-color: #090909;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 21px;
-    padding: 0px;
-    width: 231px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    height: 55px;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  .sty1{
-    height: 138px;
-    margin-bottom: 20px;
-    border-radius: 7px;
+ .btn-inicio{
+  border-radius: 20px !important ;
+  margin-top: 20px;
+  font-size: 1.8rem !important;
+ 
 }
+
+
+
