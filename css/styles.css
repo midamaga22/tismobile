@@ -9,20 +9,37 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
     min-width: 320px;
-    max-width: 350px;
+    max-width: 320px;
+    max-height: 550px;
     display: block;
-    margin: 20px auto;
-    
+   
+     
 }
-
 
 img {
    display: block;
-   margin: 80px auto;
+   margin: 50px auto;
    width: 55%;
 }
 
+/*estilos de P1*/
 
+
+footer {
+    text-align: center; /* Centra el contenido del footer */
+    background-color: #f2f2f2; /* Agrega un color de fondo al footer */
+    padding: 10px; /* Agrega un espacio alrededor del contenido del footer */
+  }
+
+  footer a {
+    color: #333; /* Cambia el color del enlace */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+    font-size: 16px; /* Cambia el tamaño de la fuente del enlace */
+  }
+
+
+
+/*estilos de formulario*/
 .form-inicio{
     display: flex;
     flex-direction: column;
@@ -49,4 +66,7 @@ img {
 }
 
 
+.card {
+   
+  }
 
