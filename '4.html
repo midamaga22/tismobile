@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <header>
+        
+            <nav >
+                <img class="menu" src="icons/icon_menu.svg" alt="">  
+                <div class="ul-menu inactive">
+                  <ul >
+                      <li >
+                        <img src="icons/descarga.png"data-toggle="tab" href="#home" style="width: 30px; float: left; margin: 5px;" alt="">
+                        
+                      
+                      </li>
+                      
+                      <li>
+                        <img src="icons/images.jpg" style="width: 30px; float: left; margin: 5px;" alt="">
+                        
+                      </li>
+                      
+                      <li>
+                        <img src="icons/done.jpg" style="width: 30px; float: left; margin: 5px;" alt="">
+                        
+                        
+                      </li>
+                      
+                      
+                    </ul>
+              </div>
+              </nav>
+            
+        
+     
+    </header>
+
+    <main>
+      <div class="tab-content">
+        <div id="home" class="container tab-pane fade inactive">
+            <p style="margin: 20px; font-weight: bold;">Now in:1st Cycle</p>
+    
+            <hr>    
+        <input  type="text" id="nombre" name="nombre" placeholder="Scan Code" style="    margin-left: 20px; border: none;border-bottom: 2px solid black;padding: 5px;width: 85%;" >
+        
+        <img src="img/ean13.gif" alt=""  style="width: 50%; display: block; margin: 10px auto ">
+        
+        <div class="card" style="margin: 0px;  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); ">
+               <div class="card-body">
+                 <h5 class="card-title">Codigo: <span>098902983</span></h5>
+                 <p class="card-text">Descripcion: <br><span>Impresora HP 1200 Laser.</span></p>
+                 <hr>
+                 <div style="width: 100% ; background-color: rgb(6, 77, 163);">
+                   <ul class="nav justify-content-center" style="letter-spacing: 0cap;">
+                     <li class="nav-item">
+                       <a class="nav-link" data-toggle="modal" data-target="#myModal" style="color: aliceblue;" href="#">Count</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" style="color: aliceblue;" href="#">Btooth</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" style="color: aliceblue;" href="#">TCP</a>
+                     </li>
+                   </ul>
+                                 <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header" style="display: flex;">
+              <h4 class="modal-title" style="font-size: 20px;">Set Quantity</h4>
+              
+            </div>
+            <div class="modal-header" style="display: flex;">
+                <h4 class="modal-title" style="font-size: 20px;">How many items are for this item?</h4>
+                
+              </div>
+    
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <input  type="text" id="nombre" name="nombre" placeholder="Enter Amount" style="margin-left: 20px; border: none; border-bottom: 2px solid black;padding: 5px;width: 85%;" >
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Load</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+                 </div>  
+                </div>
+    
+        </div>
+    
+    
+            </div>
+    
+    
+           <div id="menu1" class="container tab-pane fade inactive">
+               <h3>Menu 1</h3>
+               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             </div>
+             <div id="menu2" class="container tab-pane fade inactive">
+               <h3>Menu 2</h3>
+               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+             </div>
+           
+            </div>
+    </main>
+   
+
+
+    <script src="js.js"></script>
+</body>
+</html>
